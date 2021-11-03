@@ -80,7 +80,7 @@ const CoursesPage = () => {
       </CoursesHeader>
 
       <CoursesContainer>
-        {courses != null ? (
+        {courses.length !== 0 ? (
           courses.map((course) => {
             return (
               <Course
